@@ -24,3 +24,10 @@ function getUser(user: User) {
 }
 
 getUser({name:"Raj", score:120}) 
+
+let givenNum:number[]=[2,3,4]
+const doubleNumbers = (numbers:number[]) :number[]=>{
+    return numbers.map((num)=>num*2)
+}
+
+doubleNumbers(givenNum)
